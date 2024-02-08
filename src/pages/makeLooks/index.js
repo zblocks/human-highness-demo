@@ -17,7 +17,8 @@ export default function MakeupLooks() {
 
   async function checkTrue() {
     if (await verify()) {
-      handleOpenModal();
+      window.location.href = "https://zblocks.io/yas-cosmetics-3/"
+      // handleOpenModal();
     }
   }
 
